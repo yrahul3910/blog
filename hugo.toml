@@ -1,0 +1,25 @@
+baseURL = 'https://blog.ryedida.me/'
+languageCode = 'en-us'
+title = "Rahul's Blog"
+theme = 'PaperMod'
+
+[deployment]
+[[deployment.targets]]
+name = "production"
+
+# Google Cloud Storage -- see https://gocloud.dev/howto/blob/#gcs
+URL = "gs://ryedida.me"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+[params]
+  math = true
+
+
+

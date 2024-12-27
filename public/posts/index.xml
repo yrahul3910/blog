@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Rahul&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Rahul&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Dec 2024 22:50:50 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code &#39;24</title>
+      <link>http://localhost:1313/posts/advent-of-code-24/</link>
+      <pubDate>Thu, 26 Dec 2024 22:50:50 -0500</pubDate>
+      <guid>http://localhost:1313/posts/advent-of-code-24/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Testing&lt;/p&gt;
+$$
+\sum\limits_{i=1}^n \mathbb{E}[X_i]
+$$</description>
+    </item>
+  </channel>
+</rss>
