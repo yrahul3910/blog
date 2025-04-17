@@ -16,5 +16,14 @@
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;This is the first in a series of posts logging the development of &lt;code&gt;zqa&lt;/code&gt;, a RAG tool I am working on to work with Zotero. The eventual goal is that you will be able to, from your terminal (as an avid terminal user myself), ask questions and have LLMs respond with citations from your Zotero library. I also want this tool to help you find things: so maybe you remember certain details about a paper but don&amp;rsquo;t quite know what it was about or its title&amp;ndash;a problem that has become all too real with my 1,300-item library. Why is it called &lt;code&gt;zqa&lt;/code&gt;? Because I&amp;rsquo;m not creative, and &amp;ldquo;Zotero Q &amp;amp; A&amp;rdquo; was the first thing that popped into my head. Also, the letters in &lt;code&gt;zqa&lt;/code&gt; happen to be very close, so it&amp;rsquo;s easy enough to type.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Using Google Cloud to host multiple servers on one VM</title>
+      <link>https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 -0400</pubDate>
+      <guid>https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/</guid>
+      <description>&lt;p&gt;This blog post presents a solution to the following problem: we want to host two services, and have &lt;code&gt;test1.example.com&lt;/code&gt; and &lt;code&gt;test2.example.com&lt;/code&gt; route to them respectively. These services should run on one machine, on different ports. Google Cloud Load Balancing makes this relatively easy, although nginx solutions exist.&lt;/p&gt;
+&lt;h2 id=&#34;step-1-set-up-a-vm&#34;&gt;Step 1: Set up a VM&lt;/h2&gt;
+&lt;p&gt;We’ll create a VM with default settings. Create two directories, test1 and test2 inside the VM. Within both, we’ll create the same file called &lt;code&gt;server.js&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
