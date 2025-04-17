@@ -2,22 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Rahul&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.ryedida.me/posts/</link>
     <description>Recent content in Posts on Rahul&#39;s Blog</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2024 22:50:50 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Apr 2025 20:23:29 -0400</lastBuildDate>
+    <atom:link href="https://blog.ryedida.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advent of Code &#39;24</title>
-      <link>http://localhost:1313/posts/advent-of-code-24/</link>
-      <pubDate>Thu, 26 Dec 2024 22:50:50 -0500</pubDate>
-      <guid>http://localhost:1313/posts/advent-of-code-24/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Testing&lt;/p&gt;
-$$
-\sum\limits_{i=1}^n \mathbb{E}[X_i]
-$$</description>
+      <title>ZQA Devlog 01</title>
+      <link>https://blog.ryedida.me/posts/devlog/zqa-01/</link>
+      <pubDate>Wed, 16 Apr 2025 20:23:29 -0400</pubDate>
+      <guid>https://blog.ryedida.me/posts/devlog/zqa-01/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;This is the first in a series of posts logging the development of &lt;code&gt;zqa&lt;/code&gt;, a RAG tool I am working on to work with Zotero. The eventual goal is that you will be able to, from your terminal (as an avid terminal user myself), ask questions and have LLMs respond with citations from your Zotero library. I also want this tool to help you find things: so maybe you remember certain details about a paper but don&amp;rsquo;t quite know what it was about or its title&amp;ndash;a problem that has become all too real with my 1,300-item library.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
