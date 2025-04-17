@@ -14,7 +14,7 @@
       <pubDate>Wed, 16 Apr 2025 20:23:29 -0400</pubDate>
       <guid>https://blog.ryedida.me/posts/devlog/zqa-01/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;This is the first in a series of posts logging the development of &lt;code&gt;zqa&lt;/code&gt;, a RAG tool I am working on to work with Zotero. The eventual goal is that you will be able to, from your terminal (as an avid terminal user myself), ask questions and have LLMs respond with citations from your Zotero library. I also want this tool to help you find things: so maybe you remember certain details about a paper but don&amp;rsquo;t quite know what it was about or its title&amp;ndash;a problem that has become all too real with my 1,300-item library.&lt;/p&gt;</description>
+&lt;p&gt;This is the first in a series of posts logging the development of &lt;code&gt;zqa&lt;/code&gt;, a RAG tool I am working on to work with Zotero. The eventual goal is that you will be able to, from your terminal (as an avid terminal user myself), ask questions and have LLMs respond with citations from your Zotero library. I also want this tool to help you find things: so maybe you remember certain details about a paper but don&amp;rsquo;t quite know what it was about or its title&amp;ndash;a problem that has become all too real with my 1,300-item library. Why is it called &lt;code&gt;zqa&lt;/code&gt;? Because I&amp;rsquo;m not creative, and &amp;ldquo;Zotero Q &amp;amp; A&amp;rdquo; was the first thing that popped into my head. Also, the letters in &lt;code&gt;zqa&lt;/code&gt; happen to be very close, so it&amp;rsquo;s easy enough to type.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
