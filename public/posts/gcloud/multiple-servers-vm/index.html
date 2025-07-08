@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Using Google Cloud to host multiple servers on one VM | Rahul&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="This blog post presents a solution to the following problem: we want to host two services, and have test1.example.com and test2.example.com route to them respectively. These services should run on one machine, on different ports. Google Cloud Load Balancing makes this relatively easy, although nginx solutions exist.
 Step 1: Set up a VM
 We’ll create a VM with default settings. Create two directories, test1 and test2 inside the VM. Within both, we’ll create the same file called server.js.">
 <meta name="author" content="">
-<link rel="canonical" href="https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/">
+<link rel="canonical" href="http://localhost:1313/posts/gcloud/multiple-servers-vm/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://blog.ryedida.me/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://blog.ryedida.me/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://blog.ryedida.me/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://blog.ryedida.me/apple-touch-icon.png">
-<link rel="mask-icon" href="https://blog.ryedida.me/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/gcloud/multiple-servers-vm/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,72 +57,7 @@ We’ll create a VM with default settings. Create two directories, test1 and tes
         }
 
     </style>
-</noscript><meta property="og:url" content="https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/">
-  <meta property="og:site_name" content="Rahul&#39;s Blog">
-  <meta property="og:title" content="Using Google Cloud to host multiple servers on one VM">
-  <meta property="og:description" content="This blog post presents a solution to the following problem: we want to host two services, and have test1.example.com and test2.example.com route to them respectively. These services should run on one machine, on different ports. Google Cloud Load Balancing makes this relatively easy, although nginx solutions exist.
-Step 1: Set up a VM We’ll create a VM with default settings. Create two directories, test1 and test2 inside the VM. Within both, we’ll create the same file called server.js.">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-01-14T00:00:00-04:00">
-    <meta property="article:modified_time" content="2023-01-14T00:00:00-04:00">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Using Google Cloud to host multiple servers on one VM">
-<meta name="twitter:description" content="This blog post presents a solution to the following problem: we want to host two services, and have test1.example.com and test2.example.com route to them respectively. These services should run on one machine, on different ports. Google Cloud Load Balancing makes this relatively easy, although nginx solutions exist.
-Step 1: Set up a VM
-We’ll create a VM with default settings. Create two directories, test1 and test2 inside the VM. Within both, we’ll create the same file called server.js.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://blog.ryedida.me/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Using Google Cloud to host multiple servers on one VM",
-      "item": "https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Using Google Cloud to host multiple servers on one VM",
-  "name": "Using Google Cloud to host multiple servers on one VM",
-  "description": "This blog post presents a solution to the following problem: we want to host two services, and have test1.example.com and test2.example.com route to them respectively. These services should run on one machine, on different ports. Google Cloud Load Balancing makes this relatively easy, although nginx solutions exist.\nStep 1: Set up a VM We’ll create a VM with default settings. Create two directories, test1 and test2 inside the VM. Within both, we’ll create the same file called server.js.\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "This blog post presents a solution to the following problem: we want to host two services, and have test1.example.com and test2.example.com route to them respectively. These services should run on one machine, on different ports. Google Cloud Load Balancing makes this relatively easy, although nginx solutions exist.\nStep 1: Set up a VM We’ll create a VM with default settings. Create two directories, test1 and test2 inside the VM. Within both, we’ll create the same file called server.js.\n#!/usr/bin/env node const express = require('express') const app = express() const port = 4000 app.get('/*', (req, res) =\u003e { res.send('Hello! You have reached Test Server 2.') }) app.listen(port, () =\u003e { console.log(`Example app listening on port ${port}`) }) We need one change: in test1/server.js, change the port to 3000, and change the res.send line to say Test Server 1. In both, run:\nnpm i -D express Then in any directory, run\nsudo npm i -g forever In each directory, run\nforever start server.js We’re using forever to daemonize the processes, though you can do this using systemd as well. As of now, you have two services running, one on port 3000 and one on port 4000, and they will not stop running.\nStep 2: Set up the load balancer iBefore setting up the load balancer, we’ll need to add our instance to an instance group. This is relatively straightforward: go to Compute Engine – Instance Groups, and set the type on the left to an Unmanaged instance group. There is a key part here, though–we need to use Named Ports. Add two: one called port3000, matched to port 3000, and another called port4000 matched to port 4000. Time to set up the load balancer.\nGo to Network Services – Load balancing in the left pane of Google Cloud. Create a load balancer, and select HTTPS as the type. We’ll add two frontend configurations: one for HTTP, and one for HTTPS. Create a static IP in the IP address box and use the same one for both frontends. For HTTPS, we’ll use a Google-managed SSL certificate.\nClick on Backend services. We’ll need to create two here. Click on Backend services and backend buckets, and click on Create Backend Service. You can name these whatever you want–I’ve named them test1 and test2. Set the backend type as Instance group, and select the instance group you just created. For our purposes, we’ll disable Cloud CDN. We’ll be prompted for a named port, and select port3000. Set the maximum utilization to 100%. Under Health Checks, click on Create Health Check. Give it a name–I called it test1. Make sure the protocol is TCP, and set the port to 3000. Click Save. You’ll do the same for the second backend service–except, use the port4000 named port, and in Health Checks, set the port to 4000.\nNext, click on Routing Rules. Use the Simple host and path rule option, and add the following rules:\ntest1.example.com mapping to path /* and backend test1. test2.example.com mapping to path /* and backend test2. Finally, create the load balancer. However, we’re not done yet.\nStep 3: Miscellaneous tasks We have two more things to do. First, the instance’s firewall will not allow traffic to ports 3000 or 4000. This is an easy fix–go to VPC network – Firewall, and then Create Firewall Rule. I called it port3000-port4000, set targets to All instances in the network, source IP ranges to 0.0.0.0/0. Check TCP, and in ports, type 3000, 4000. Click Create. Go to Compute Engine – VM instances, select your instance, and click Edit. Under Network tags, add port3000-port4000 and save.\nFinally, all that’s left is DNS. Go to your domain registrar’s DNS settings, and add two A records: one for test1.example.com and one for test2.example.com. Have both records point to the IP address of the load balancer. To find this IP address, go to VPC network – IP addresses, and you’ll find the name of the IP address you created in the first step of the load balancer creation.\nYou’re done! You should now be able to navigate to test1.example.com and test2.example.com and have the two messages printed out.\n",
-  "wordCount" : "687",
-  "inLanguage": "en",
-  "datePublished": "2023-01-14T00:00:00-04:00",
-  "dateModified": "2023-01-14T00:00:00-04:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://blog.ryedida.me/posts/gcloud/multiple-servers-vm/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rahul's Blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://blog.ryedida.me/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
     
        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script>
@@ -153,7 +88,7 @@ We’ll create a VM with default settings. Create two directories, test1 and tes
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://blog.ryedida.me/" accesskey="h" title="Rahul&#39;s Blog (Alt + H)">Rahul&#39;s Blog</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Rahul&#39;s Blog (Alt + H)">Rahul&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -241,7 +176,7 @@ We’ll create a VM with default settings. Create two directories, test1 and tes
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://blog.ryedida.me/">Rahul&#39;s Blog</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Rahul&#39;s Blog</a></span> · 
 
     <span>
         Powered by
