@@ -6,8 +6,16 @@
     <description>Recent content on Rahul&#39;s Blog</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jul 2025 21:44:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 12:00:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On LLM-based TUI coding assistants</title>
+      <link>http://localhost:1313/posts/tech/cli-agents/</link>
+      <pubDate>Sun, 19 Oct 2025 12:00:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/tech/cli-agents/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Over the past few months, it seems that Big AI™ has finally listened to us terminal users. As someone who exclusively uses nvim + tmux, I did (and continue to) not care about most of the AI-in-IDE assistants, since most of them seemed catered to VS Code (and its forks) or JetBrains users. Neovim has plugins that offer similar functionality such as Avante, and while they work great (so I&amp;rsquo;ve heard), they&amp;rsquo;re all entirely community-driven (but it is worth mentioning that Microsoft did release a vim plugin for Copilot, which a community member kindly ported to neovim and continues to maintain to this day).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ZQA Devlog 02</title>
       <link>http://localhost:1313/posts/devlog/zqa-02/</link>
